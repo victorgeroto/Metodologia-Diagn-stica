@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: "Boogaolo", sans-serif;
+}
+
+header {
+    background-color: #67449E; 
+    padding: 10px 20px; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo img {
+    height: 80px;
+}
+.logo {
+    height: 70px; 
+    display: flex;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-left: 10px;
+    color: #ffffff; 
+    font-size: 25px;
+    width:180px ;
+
+
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+    display: flex
+     
+}
+
+a {
+    text-decoration: none; 
+    color: #ffffff; 
+    margin-left: 30px;
+    font-size: 20px; 
+}
+
+.fundo {
+    height: 100vh; 
+    background-image: url('../img/banner.png'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
